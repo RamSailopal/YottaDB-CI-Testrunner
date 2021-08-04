@@ -7,6 +7,14 @@ This repo designed for continuous integration testing run pipelines, that analys
 # Installation
 
     git clone https://github.com/RamSailopal/YottaDB-CI-Testrunner.git
+    
+# Prequisites
+
+A working installation of YottaDB installed on the same machine.
+
+A ydb executable in the system path i.e.
+
+    ln -s /usr/local/yottadb/ydb /usr/local/bin/ydb
 
 # Setup and execution
 
