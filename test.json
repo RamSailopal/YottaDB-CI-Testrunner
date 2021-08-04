@@ -1,0 +1,9 @@
+[{
+		"global": "^RAM(\"TEST\")",
+		"value": "1"
+	},
+	{
+		"global": "^RAM(\"TEST1\")",
+		"value": "TESTING"
+	}
+]
