@@ -2,7 +2,7 @@
 
 ![Alt text](YottaDB-Test-Results.PNG?raw=true "YottaDB Test Results")
 
-This repo designed for continuous integration testing run pipelines, that analyse entries in the YottaDB database
+This repo is designed for continuous integration testing run pipelines, that analyse entries in the YottaDB database
 
 # Installation
 
