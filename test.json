@@ -1,9 +1,20 @@
-[{
-		"global": "^RAM(\"TEST\")",
-		"value": "1"
-	},
-	{
-		"global": "^RAM(\"TEST1\")",
-		"value": "TESTING"
-	}
+[
+ {
+  "tests": [
+            {
+             "name" : "Set the global entry",
+             "action" : "ydb <<< 'S ^RAM(\"TEST\")=\"1\" S ^RAM(\"TEST1\")=\"TESTING\"'",
+             "result": [
+                         {
+		           "global": "^RAM(\"TEST\")",
+		           "value": "1"
+	                 },
+	                 {
+		           "global": "^RAM(\"TEST1\")",
+		           "value": "TESTING"
+	                 }
+                       ]
+             }
+            ]
+ }
 ]
