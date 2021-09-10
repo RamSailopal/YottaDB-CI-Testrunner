@@ -18,7 +18,7 @@ A ydb executable in the system path i.e.
 
 # Setup and execution
 
-Add the YottaDB global entries to be interogated as the **global** values in the JSON file. Add the values expected as the **value** values. Add the execution action as a command line statment for the **action** value
+Add the YottaDB global entries to be interogated as the **global** values in the JSON file. Add the values expected as the **value** values. Add the execution action as a command line statement for the **action** value
 
 Run the testrun python script:
 
