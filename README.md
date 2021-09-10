@@ -39,3 +39,7 @@ The output from the script can be attained as a HTML report for integration with
 https://plugins.jenkins.io/htmlpublisher/
 
 Output will appear as in the example image.
+
+To attain a HTML report. add the output flag to the command line and so:
+
+   ./testrun.py -o
