@@ -8,11 +8,12 @@ HTML=0
 finres=0
 dat = datetime.datetime.now()
 options, remainder = getopt.getopt(sys.argv[1:], 'f:o', ['file=','output'])
+options1=options[0]
 if len(options)==0:
    file="test.json"
 for opt,arg in options:
    if opt in ("-f", "--file"):
-      file=remainder[0]
+      file=options1[1]
    else:
       file="test.json"
    if opt in ("-o", "--output"):
@@ -40,7 +41,7 @@ for i in data:
                               stderr=subprocess.PIPE,
                               shell=True)
          result = process.communicate()
-         result1=result[0].replace("\n","")
+         result1=result[0].decode('utf-8').replace("\n","")
          if (str(result1) == str(k["value"])):
             cnt=cnt+1
             print("Actual:  " + str(result1) + "  Expected:  " + str(k["value"]) + "  ............... " + "PASS")
