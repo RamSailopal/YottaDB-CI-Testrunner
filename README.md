@@ -42,4 +42,4 @@ Output will appear as in the example image.
 
 To attain a HTML report. add the output flag to the command line and so:
 
-   ./testrun.py -o
+    ./testrun.py -o
